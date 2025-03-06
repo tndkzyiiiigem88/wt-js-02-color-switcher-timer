@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+/* 
+  Доданий стиль для кнопки Шишков Єгор Е-14
+*/
+button {
+  background-color: #c20583;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/* 
+  Доданий стиль для кнопки при наведені Шишков Єгор Е-14
+*/
+button:hover {
+  background-color: #000000;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #c20583;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+.color-switcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+/* 
+  Доданий стиль для відцентрування усього блоку таймера Шишков Єгор Е-14
+*/
+.timer-set {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+/* 
+  Доданий стиль для класу таймер Шишков Єгор Е-14
+*/
+.timer {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-size: 40px;
+  text-align: center;
+}
+
+/* 
+  Доданий стиль для кнопки повернення назад Шишков Єгор Е-14
+*/
+.arrow {
+  font-size: 40px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  color: #000000;
+  position: relative;
+}
+/* 
+  Доданий стиль для кнопки повернення назад при наведені Шишков Єгор Е-14
+*/
+.arrow:hover {
+  color: #c20583;
+}
+/* 
+  Доданий стиль для кнопки вибору завдання Шишков Єгор Е-14
+*/
+.tusks {
+  font-size: 40px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  color: #000000;
+}
+/* 
+  Доданий стиль для кнопки вибору завдання при наведенні Шишков Єгор Е-14
+*/
+.tusks:hover {
+  color: #c20583;
+}
+/* 
+  Доданий стиль для списку завдань Шишков Єгор Е-14
+*/
+.list-of-tusk {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
